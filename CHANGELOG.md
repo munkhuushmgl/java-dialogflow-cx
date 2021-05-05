@@ -1,5 +1,40 @@
 # Changelog
 
+## [0.7.0](https://www.github.com/googleapis/java-dialogflow-cx/compare/v0.6.1...v0.7.0) (2021-05-05)
+
+
+### Features
+
+* add export / import flow API ([b29dfea](https://www.github.com/googleapis/java-dialogflow-cx/commit/b29dfea9e09d6852caf78eacdc45a7feb0c79370))
+* added fallback option when restoring an agent ([#164](https://www.github.com/googleapis/java-dialogflow-cx/issues/164)) ([d38deef](https://www.github.com/googleapis/java-dialogflow-cx/commit/d38deefc49b6fd2bd805748c4046691dbeb3964d))
+* added fallback option when restoring an agent ([#166](https://www.github.com/googleapis/java-dialogflow-cx/issues/166)) ([f745beb](https://www.github.com/googleapis/java-dialogflow-cx/commit/f745beb41ed7844909c7acd43235a490faefc619))
+* allow to disable webhook invocation per request ([#156](https://www.github.com/googleapis/java-dialogflow-cx/issues/156)) ([17ff978](https://www.github.com/googleapis/java-dialogflow-cx/commit/17ff97848778900c946b13cca420cd7fd7d60a5d))
+* allow to disable webhook invocation per request ([#158](https://www.github.com/googleapis/java-dialogflow-cx/issues/158)) ([60e5204](https://www.github.com/googleapis/java-dialogflow-cx/commit/60e520467e609a110467053bae2642c2a4b9e956))
+* Expose supported languages of the agent ([#205](https://www.github.com/googleapis/java-dialogflow-cx/issues/205)) ([b29dfea](https://www.github.com/googleapis/java-dialogflow-cx/commit/b29dfea9e09d6852caf78eacdc45a7feb0c79370))
+* include original user query in WebhookRequest and add GetTextCaseresult API ([#169](https://www.github.com/googleapis/java-dialogflow-cx/issues/169)) ([43cdc98](https://www.github.com/googleapis/java-dialogflow-cx/commit/43cdc986d04472760a42f61e8318090bd5565052))
+* support setting current_page to resume sessions; expose transition_route_groups in flows and language_code in webhook ([#173](https://www.github.com/googleapis/java-dialogflow-cx/issues/173)) ([ac7eec7](https://www.github.com/googleapis/java-dialogflow-cx/commit/ac7eec7204eaa25bc4dd061d4006c6a34a71415b))
+
+
+### Bug Fixes
+
+* release scripts from issuing overlapping phases ([#180](https://www.github.com/googleapis/java-dialogflow-cx/issues/180)) ([7d4e099](https://www.github.com/googleapis/java-dialogflow-cx/commit/7d4e099dfe6081d5fa72c807241fe0df7be8e851))
+* typo ([#178](https://www.github.com/googleapis/java-dialogflow-cx/issues/178)) ([ef6800b](https://www.github.com/googleapis/java-dialogflow-cx/commit/ef6800bbfa0cc9027bffad6aaacccb1902d182c1))
+
+
+### Dependencies
+
+* update dependency com.google.cloud:google-cloud-shared-dependencies to v0.20.1 ([#163](https://www.github.com/googleapis/java-dialogflow-cx/issues/163)) ([a3f793c](https://www.github.com/googleapis/java-dialogflow-cx/commit/a3f793c61aa6a08947c9c2ddcd1d45a276d40e68))
+* update dependency com.google.cloud:google-cloud-shared-dependencies to v0.21.0 ([#175](https://www.github.com/googleapis/java-dialogflow-cx/issues/175)) ([45f31e7](https://www.github.com/googleapis/java-dialogflow-cx/commit/45f31e7068457c00a90bebd7be9620319d2634a7))
+* update dependency com.google.cloud:google-cloud-shared-dependencies to v0.21.1 ([#181](https://www.github.com/googleapis/java-dialogflow-cx/issues/181)) ([7067d39](https://www.github.com/googleapis/java-dialogflow-cx/commit/7067d39be16f5a248c8bfb1f881404a052e5da28))
+* update dependency com.google.cloud:google-cloud-shared-dependencies to v1 ([#202](https://www.github.com/googleapis/java-dialogflow-cx/issues/202)) ([a55e7af](https://www.github.com/googleapis/java-dialogflow-cx/commit/a55e7af7c5ab337d4db25b646ba50e5ab4290d47))
+
+
+### Documentation
+
+* clarified experiment length ([f745beb](https://www.github.com/googleapis/java-dialogflow-cx/commit/f745beb41ed7844909c7acd43235a490faefc619))
+* clarified experiment length ([d38deef](https://www.github.com/googleapis/java-dialogflow-cx/commit/d38deefc49b6fd2bd805748c4046691dbeb3964d))
+* Update docs on Pages, Session, Version, etc. ([b29dfea](https://www.github.com/googleapis/java-dialogflow-cx/commit/b29dfea9e09d6852caf78eacdc45a7feb0c79370))
+
 ### [0.6.1](https://www.github.com/googleapis/java-dialogflow-cx/compare/v0.6.0...v0.6.1) (2021-02-25)
 
 
